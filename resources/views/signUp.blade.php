@@ -189,7 +189,7 @@
                 </div>
 
                 {{-- Social --}}
-                <div class="grid grid-cols-2 gap-3 mb-7">
+                <div class="grid grid-cols-1 gap-3 mb-7">
 
 <a href="{{ route('auth.google') }}" class="flex items-center justify-center gap-2 py-2.5 bg-surface2 border border-white/[0.07] rounded-xl text-gray-400 text-sm font-medium hover:border-gold/25 hover:text-gray-200 transition-all duration-200">
     <svg class="w-[17px] h-[17px] flex-shrink-0" viewBox="0 0 24 24">
@@ -201,10 +201,7 @@
     Google
 </a>
 
-                    <button class="flex items-center justify-center gap-2 py-2.5 bg-surface2 border border-white/[0.07] rounded-xl text-gray-400 text-sm font-medium hover:border-gold/25 hover:text-gray-200 transition-all duration-200">
-                        <svg class="w-[17px] h-[17px] flex-shrink-0" fill="#60a5fa" viewBox="0 0 24 24"><path d="M11.4 24H7.6V8.8h3.8V24zM9.5 7.2c-1.2 0-2.2-1-2.2-2.2s1-2.2 2.2-2.2 2.2 1 2.2 2.2-1 2.2-2.2 2.2zM24 24h-3.8v-7.4c0-1.4 0-3.2-2-3.2s-2.2 1.5-2.2 3.1V24h-3.8V8.8h3.7v2.1h.1c.5-1 1.8-2 3.6-2 3.9 0 4.6 2.6 4.6 5.9V24z"/></svg>
-                        LinkedIn
-                    </button>
+
                 </div>
 
                 <p class="text-center text-sm text-gray-500">
