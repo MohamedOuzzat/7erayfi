@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 use App\Http\Requests\PostRequest;
 use App\Models\Category;
 use App\Models\Post;
+use App\Models\User;
 use Pest\Mutate\Mutators\Number\DecrementInteger;
 
 class PostController extends Controller
@@ -17,7 +18,12 @@ class PostController extends Controller
     {
     $posts = Post::orderBy('id', 'DESC')->get();
     $categorys = Category::all();
-    return view('dashboard', compact('posts', 'categorys'));
+$users = User::where('name', 'like', substr(auth()->user()->name, 0, 1) . '%')
+            ->where('id', '!=', auth()->id())
+            ->limit(5)
+            ->get();
+
+            return view('dashboard', compact('posts', 'categorys','users'));
     }
 
     /**

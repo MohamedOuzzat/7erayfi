@@ -285,7 +285,7 @@
                         <div class="fs">{{ $user->localisation }}</div>
                     </div>
                 </div>
-                
+
                 @endforeach
 
                 <div style="padding:10px 16px 14px;"><button
@@ -294,7 +294,7 @@
             </div>
 
             <!-- Trending -->
-            <div class="card" style="margin-bottom:14px;">
+            <!-- <div class="card" style="margin-bottom:14px;">
                 <div class="card-accent accent-fire"></div>
                 <div class="card-header card-header-fire"><span class="bar bar-fire"></span>Trending in Morocco</div>
                 <div style="padding:12px 16px 14px;">
@@ -307,10 +307,10 @@
                     <span class="tag-pill">#Design</span>
                     <span class="tag-pill">#Startup</span>
                 </div>
-            </div>
+            </div> -->
 
             <!-- This week analytics -->
-            <div class="card" style="margin-bottom:14px;">
+            <!-- <div class="card" style="margin-bottom:14px;">
                 <div class="card-accent accent-fire"></div>
                 <div class="card-header card-header-fire"><span class="bar bar-fire"></span>This Week</div>
                 <div style="padding:14px 16px;">
@@ -327,7 +327,7 @@
                         <span style="font-family:'Cinzel',serif;font-size:13px;color:var(--sage);">12</span>
                     </div>
                 </div>
-            </div>
+            </div> -->
 
             <!-- Footer -->
             <div style="padding:8px 14px;opacity:.45;">
